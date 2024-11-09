@@ -49,6 +49,7 @@
             cursor: pointer;
             color: white;
             border-radius: 5px;
+            /* width: 50px; */
             animation: bounce 1s infinite;
         }
 
@@ -67,6 +68,20 @@
         audio {
             display: none;
         }
+
+        @media screen and (max-width:600px){
+            .btn {
+            background-color: #ff5722;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            border-radius: 5px;
+            /* width: 50px; */
+            animation: bounce 1s infinite;
+        }
+        }
     </style>
 </head>
 <body>
@@ -81,7 +96,7 @@
     <!-- Main Content Section -->
     <div class="content">
         <h1 class="title">BASE DAWN</h1>
-        <a href="boku.html" class="btn">Enter the Zone</a>
+        <a href="boku.html" class="btn" >Enter the Zone</a>
         <!-- <button class="btn" onclick="location.href='boku.'">Enter the Zone</button> -->
 
 
