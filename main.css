@@ -275,7 +275,6 @@ button {
     transform: rotate(-3.649deg);
     color: #fff;
 }
-
 .text-outlined {
     text-shadow: #000 2px 0px 0px, #000 1.75517px 0.958851px 0px,
         #000 1.0806px 1.68294px 0px, #000 0.141474px 1.99499px 0px,
@@ -727,10 +726,14 @@ button {
     }
 }
 
-@media screen and (max-width: 757.98px) {
+@media screen and (max-width: 700.98px) {
     .tokenomics {
-        background-position: left center;
+        background-position: center;
     }
+}
+@media screen and (max-width:450) {
+
+    
 }
 
 .tokenomics__container {
